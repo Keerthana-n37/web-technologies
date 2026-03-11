@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+</head>
+
+<body>
+    <form>
+
+        <div>
+            <h1>Bakery Order Form</h1>
+        </div>
+        <hr>
+
+        <div>
+            <b>Customer Name</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+
+        <div>
+            <b>Customer Phone</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <br>
+
+        <div>
+            <b>Website</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="url" id="website" name="website">
+        </div>
+        <br>
+
+        <div>
+            <b>Search Cake</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="search" id="cakeSearch" name="cakeSearch">
+        </div>
+        <br>
+
+        <div>
+            <b>Delivery Month</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="month" id="deliveryMonth" name="deliveryMonth">
+        </div>
+        <br>
+
+        <div>
+            <b>Select Cakes</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="checkbox" id="chocolateCake" name="cake" value="Chocolate Cake">
+            <span>Chocolate Cake</span>
+
+            <input type="checkbox" id="blackForest" name="cake" value="Black Forest">
+            <span>Black Forest</span>
+
+            <input type="checkbox" id="redVelvet" name="cake" value="Red Velvet">
+            <span>Red Velvet</span>
+        </div>
+        <br>
+
+        <div>
+            <b>Select Sweets</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="checkbox" id="ladoo" name="sweet" value="Ladoo">
+            <span>Ladoo</span>
+
+            <input type="checkbox" id="gulabJamun" name="sweet" value="Gulab Jamun">
+            <span>Gulab Jamun</span>
+
+            <input type="checkbox" id="kajuKatli" name="sweet" value="Kaju Katli">
+            <span>Kaju Katli</span>
+        </div>
+        <br>
+
+
+        <div>
+            <b>Hidden Bakery Code</b>
+            <span>*</span>
+            <span>:</span>
+            <input type="hidden" id="code" name="code" value="B123">
+        </div>
+        <br>
+
+        <div>
+            <b>Reset Form</b>
+            <span>:</span>
+            <input type="reset" id="reset" name="reset" value="Reset">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" id="submit" name="submit" value="Submit Order">
+        </div>
+
+    </form>
+</body>
+
+</html>
