@@ -9,149 +9,176 @@
 
     <form>
 
-        <div>
-            <h1>Gaming Tournament Registration</h1>
-        </div>
+        <h1>Gaming Tournament Registration</h1>
         <hr>
 
-        <div>
-            <b>Player Name</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="text" id="playerName" name="playerName" required>
-        </div>
+        <fieldset>
+            <legend>Player Information</legend>
+
+            <div>
+                <b>Player Name</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="text" id="playerName" name="playerName" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Email</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Password</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Age</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Contact Number</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+        </fieldset>
+
         <br>
 
-        <div>
-            <b>Email</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="email" id="email" name="email">
-        </div>
+        <fieldset>
+            <legend>Tournament Details</legend>
+
+            <div>
+                <b>Tournament Date</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Match Time</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Tournament Month</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="month" id="month" name="month" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Tournament Week</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="week" id="week" name="week" required>
+            </div>
+
+        </fieldset>
+
         <br>
 
-        <div>
-            <b>Password</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="password" id="password" name="password">
-        </div>
+        <fieldset>
+            <legend>Game Preferences</legend>
+
+            <div>
+                <b>Upload Avatar</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="file" id="avatar" name="avatar" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Team Color</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="color" id="teamColor" name="teamColor" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Skill Level</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="range" id="skill" name="skill" min="1" max="10" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Gaming Website</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="url" id="website" name="website" required>
+            </div>
+            <br>
+
+            <div>
+                <b>Search Game</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="search" id="searchGame" name="searchGame" required>
+            </div>
+
+        </fieldset>
+
         <br>
 
-        <div>
-            <b>Age</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="number" id="age" name="age">
-        </div>
+        <fieldset>
+            <legend>Game Mode</legend>
+
+            <div>
+                <b>Select Mode</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="radio" id="solo" name="mode">Solo
+                <input type="radio" id="team" name="mode">Team
+            </div>
+            <br>
+
+            <div>
+                <b>Select Platform</b>
+                <span style="color:red">*</span>
+                <span>:</span>
+                <input type="checkbox" id="pc" name="platform">PC
+                <input type="checkbox" id="console" name="platform">Console
+            </div>
+
+        </fieldset>
+
         <br>
 
-        <div>
-            <b>Contact Number</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="tel" id="phone" name="phone">
-        </div>
-        <br>
+        <fieldset>
+            <legend>Form Actions</legend>
 
-        <div>
-            <b>Tournament Date</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="date" id="date" name="date">
-        </div>
-        <br>
+            <div>
+                <input type="reset" value="Clear Form">
+            </div>
+            <br>
 
-        <div>
-            <b>Match Time</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="time" id="time" name="time">
-        </div>
-        <br>
+            <div>
+                <input type="submit" value="Register">
+            </div>
 
-        <div>
-            <b>Upload Avatar</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="file" id="avatar" name="avatar">
-        </div>
-        <br>
-
-        <div>
-            <b>Team Color</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="color" id="teamColor" name="teamColor">
-        </div>
-        <br>
-
-        <div>
-            <b>Skill Level</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="range" id="skill" name="skill" min="1" max="10">
-        </div>
-        <br>
-
-        <div>
-            <b>Gaming Website</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="url" id="website" name="website">
-        </div>
-        <br>
-
-        <div>
-            <b>Search Game</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="search" id="searchGame" name="searchGame">
-        </div>
-        <br>
-
-        <div>
-            <b>Tournament Month</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="month" id="month" name="month">
-        </div>
-        <br>
-
-        <div>
-            <b>Tournament Week</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="week" id="week" name="week">
-        </div>
-        <br>
-
-        <div>
-            <b>Select Mode</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="radio" id="solo" name="mode">Solo
-            <input type="radio" id="team" name="mode">Team
-        </div>
-        <br>
-
-        <div>
-            <b>Select Platform</b>
-            <span>*</span>
-            <span>:</span>
-            <input type="checkbox" id="pc" name="platform">PC
-            <input type="checkbox" id="console" name="platform">Console
-        </div>
-        <br>
-
-        <div>
-            <input type="reset" id="reset" name="reset" value="Clear Form">
-        </div>
-        <br>
-
-        <div>
-            <input type="submit" id="submit" name="submit" value="Register">
-        </div>
+        </fieldset>
 
     </form>
 
