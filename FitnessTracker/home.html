@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness tarcking website</title>
+    <title>Fitness Tracker</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-pap7NkH2X1vXfzJZxZ7F3lG7+2eU9mX+Hklf0zFhQZWf2bOeP6eY1P8Zc7zTk3e1/nL6cT7i1F0bGkGvDqF+1Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe height=800 width=1800 src="https://formfit.to/" frameborder="0"></iframe>
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#exercises">Exercises</a></li>
+            <li><a href="#nutrition">Nutrition</a></li>
+            <li><a href="#workout-plan">Workout Plan</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Ultimate Fitness Tracker</h1>
+
+    <div>
+
+        <a href="https://www.facebook.com" target="_blank" style="margin-right:15px; color:#3b5998; font-size:30px;">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" style="margin-right:15px; color:#C13584; font-size:30px;">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" style="margin-right:15px; color:#1DA1F2; font-size:30px;">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" style="margin-right:15px; color:#0077B5; font-size:30px;">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+
+    <h2 id="overview">Overview</h2>
+    <p>Fitness Tracker helps you monitor your workouts, track calories burned, and maintain a healthy lifestyle.
+        Use our tracker to improve stamina, strength, and overall health.</p>
+
+
+    <h2 id="exercises">Exercises</h2>
+    <p>Here are some recommended exercises to track:</p>
+    <table border="1">
+        <tr>
+            <th>Exercise</th>
+            <th>Duration</th>
+            <th>Calories Burned</th>
+        </tr>
+        <tr>
+            <td>Running</td>
+            <td>30 mins</td>
+            <td>300 kcal</td>
+        </tr>
+        <tr>
+            <td>Cycling</td>
+            <td>45 mins</td>
+            <td>400 kcal</td>
+        </tr>
+        <tr>
+            <td>Weight Training</td>
+            <td>60 mins</td>
+            <td>350 kcal</td>
+        </tr>
+    </table>
+
+    <h2 id="nutrition">Nutrition Tips</h2>
+    <ul>
+        <li>Include protein-rich foods for muscle recovery.</li>
+        <li>Eat complex carbs for energy during workouts.</li>
+        <li>Stay hydrated and avoid sugary drinks.</li>
+        <li>Maintain a balanced diet with fruits and vegetables.</li>
+    </ul>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Have questions or want to join our fitness program? Reach out to us!</p>
+
+    <p><strong>Phone:</strong> +1 123-456-7890</p>
+    <p><strong>Email:</strong> info@fitnesstracker.com</p>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+    <div id="social-icons" style="margin-top:20px;">
+    <a href="https://www.instagram.com/yourprofile" target="_blank" style="margin-right:15px; font-size:30px; color:#E1306C;">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/1234567890" target="_blank" style="margin-right:15px; font-size:30px; color:#25D366;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/yourprofile" target="_blank" style="margin-right:15px; font-size:30px; color:#3b5998;">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/yourchannel" target="_blank" style="margin-right:15px; font-size:30px; color:#FF0000;">
+        <i class="fab fa-youtube"></i>
+    </a>
+    </div>
+
+    <h2>Contact & Gym Location</h2>
+    <p>Visit our main fitness center:</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9049854518303!2d77.606364!3d12.913828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15cc0aa7341f%3A0x3aaaeccf997fe739!2sCult%20Gym%20BTM%202nd%20Stage%20%7C%20Best%20Gym%20in%20BTM%202nd%20stage%2C%20Bengaluru!5e0!3m2!1sen!2sin!4v1773768298002!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </body>
+
 </html>

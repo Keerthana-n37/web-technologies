@@ -1,11 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaming website</title>
+    <title>Ultimate Gaming Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+
+        .archivo-black-regular {
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        img.logo {
+            height: 60px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe height=800 width=1800 src="https://www.bgames.com/" frameborder="0"></iframe>
+    <nav>
+        <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#consoles">Consoles</a></li>
+            <li><a href="#news">Gaming News</a></li>
+            <li><a href="#tournaments">Tournaments</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Ultimate Gaming Hub</h1>
+    <p class="archivo-black-regular">Welcome to the ultimate gaming hub! Discover the latest games, consoles, esports tournaments, and gaming news all in one place.</p>
+
+    <h2 id="games">Top Games</h2>
+    <table border="1">
+        <tr>
+            <th>Game</th>
+            <th>Platform</th>
+            <th>Release Year</th>
+        </tr>
+        <tr>
+            <td>Cyberpunk 2077</td>
+            <td>PC, PS5, Xbox Series X</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>Call of Duty: Modern Warfare II</td>
+            <td>PC, PS5, Xbox Series X</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>God of War Ragnarok</td>
+            <td>PS5</td>
+            <td>2022</td>
+        </tr>
+    </table>
+
+    <h3>Game Gallery</h3>
+    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/video-game-1836640_1280.jpg" alt="Gaming Image" width="300">
+    <img src="https://cdn.pixabay.com/photo/2017/08/10/03/44/gamer-2613644_1280.jpg" alt="Gaming Image" width="300">
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/video-736398_1280.jpg" alt="Gaming Image" width="300">
+
+    <h2 id="consoles">Gaming Consoles</h2>
+    <ul>
+        <li>PlayStation 5</li>
+        <li>Xbox Series X</li>
+        <li>Nintendo Switch OLED</li>
+        <li>Steam Deck</li>
+    </ul>
+
+    <h2 id="news">Latest Gaming News</h2>
+    <ol>
+        <li>EA announces new FIFA 2027 with enhanced AI gameplay.</li>
+        <li>Nintendo Switch Pro rumored to release in 2026.</li>
+        <li>Fortnite introduces new seasonal events with VR support.</li>
+    </ol>
+
+    <h2 id="tournaments">Upcoming Tournaments</h2>
+    <table border="1">
+        <tr>
+            <th>Tournament</th>
+            <th>Game</th>
+            <th>Date</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Fortnite World Cup 2026</td>
+            <td>Fortnite</td>
+            <td>July 15-20, 2026</td>
+            <td>Los Angeles, USA</td>
+        </tr>
+        <tr>
+            <td>LoL World Championship</td>
+            <td>League of Legends</td>
+            <td>Sept 5-15, 2026</td>
+            <td>Berlin, Germany</td>
+        </tr>
+        <tr>
+            <td>COD League Finals</td>
+            <td>Call of Duty</td>
+            <td>Nov 10-14, 2026</td>
+            <td>New York, USA</td>
+        </tr>
+    </table>
+
+
+    <h2>Featured Game Trailer</h2>
+    <video width="600" controls autoplay muted>
+        <source src="https://www.pexels.com/download/video/8501043" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Find Gaming Stores Near You</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.809480716383!2d77.59703214618092!3d12.910782846764466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzI3LjAiTiA3N8KwMzUnMDkuMCJF!5e0!3m2!1sen!2sin!4v1773750361626!5m2!1sen!2sin"
+        width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <h2 id="contact">Contact Us / Social Media</h2>
+    <p>Connect with us for updates and support:</p>
+    <a href="https://www.instagram.com/yourgamingprofile" target="_blank" style="margin-right:10px; font-size:30px; color:#E1306C;">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/1234567890" target="_blank" style="margin-right:10px; font-size:30px; color:#25D366;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/yourgamingpage" target="_blank" style="margin-right:10px; font-size:30px; color:#3b5998;">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/yourgamingchannel" target="_blank" style="margin-right:10px; font-size:30px; color:#FF0000;">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+    <h3>Send us a Message</h3>
+    <form>
+        Name:<br>
+        <input type="text" name="name" required><br>
+        Email:<br>
+        <input type="email" name="email" required><br>
+        Message:<br>
+        <textarea name="message" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+
 </body>
+
 </html>

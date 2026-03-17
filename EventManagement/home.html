@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Management website</title>
+    <title>Elite Event Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+      integrity="sha512-pap7NkH2X1vXfzJZxZ7F3lG7+2eU9mX+Hklf0zFhQZWf2bOeP6eY1P8Zc7zTk3e1/nL6cT7i1F0bGkGvDqF+1Q==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .pacifico-regular {
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+
+    </style>
 </head>
+
 <body>
-    <iframe height=800 width=1800 src="https://www.socialtables.com/blog/event-planning/event-company-names/" frameborder="0"></iframe>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Elite Event Management</h1>
+
+    <p class="pacifico-regular">We specialize in organizing memorable events such as weddings, corporate parties, birthdays, and private
+        celebrations. Our expert team handles planning, decoration, catering, and entertainment to create
+        unforgettable experiences.</p>
+
+    <h2 id="about">About Us</h2>
+    <p>Founded in 2010, Elite Event Management has successfully organized over 500 events across India. We focus on
+        personalized services to match each client’s unique vision.</p>
+
+    <h2 id="services">Our Services</h2>
+    <table border="1">
+        <tr>
+            <th>Service</th>
+            <th>Description</th>
+            <th>Starting Price (₹)</th>
+        </tr>
+        <tr>
+            <td>Weddings</td>
+            <td>Full-service wedding planning including venue, decor, catering, and photography.</td>
+            <td>2,00,000</td>
+        </tr>
+        <tr>
+            <td>Corporate Events</td>
+            <td>Seminars, conferences, and office celebrations organized professionally.</td>
+            <td>1,50,000</td>
+        </tr>
+        <tr>
+            <td>Birthday Parties</td>
+            <td>Themed parties for children and adults with entertainment, decoration, and catering.</td>
+            <td>50,000</td>
+        </tr>
+        <tr>
+            <td>Private Parties</td>
+            <td>Custom events like anniversaries, baby showers, and cultural celebrations.</td>
+            <td>75,000</td>
+        </tr>
+    </table>
+
+    <h2 id="packages">Event Packages</h2>
+    <table border="1">
+        <tr>
+            <th>Package</th>
+            <th>Includes</th>
+            <th>Price (₹)</th>
+        </tr>
+        <tr>
+            <td>Silver</td>
+            <td>Venue booking, basic decoration, catering for 50 guests.</td>
+            <td>1,00,000</td>
+        </tr>
+        <tr>
+            <td>Gold</td>
+            <td>Venue, premium decoration, catering for 100 guests, basic entertainment.</td>
+            <td>2,50,000</td>
+        </tr>
+        <tr>
+            <td>Platinum</td>
+            <td>Venue, luxury decoration, catering for 200 guests, full entertainment & photography.</td>
+            <td>5,00,000</td>
+        </tr>
+    </table>
+
+    <h2 id="testimonials">Client Testimonials</h2>
+    <p><b>Rohan K.</b> - "Elite Events made our wedding magical! Everything was perfect."</p>
+    <p><b>Priya S.</b> - "Professional and creative team. Our corporate event was flawless."</p>
+    <p><b>Amit V.</b> - "Highly recommended for birthdays and private parties. Great service!"</p>
+
+    <h2 id="team">Meet Our Team</h2>
+    <ul>
+        <li><b>Neha Sharma</b> - CEO & Lead Planner</li>
+        <li><b>Ravi Kumar</b> - Operations Manager</li>
+        <li><b>Anjali Verma</b> - Creative Director</li>
+        <li><b>Akash Mehta</b> - Event Coordinator</li>
+    </ul>
+
+    <h2 id="booking">Booking Form</h2>
+    <form>
+        <p>Name: <input type="text" name="name"></p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Phone: <input type="text" name="phone"></p>
+        <p>Event Type:
+            <select name="event_type">
+                <option>Wedding</option>
+                <option>Corporate Event</option>
+                <option>Birthday</option>
+                <option>Private Party</option>
+            </select>
+        </p>
+        <p>Date: <input type="date" name="event_date"></p>
+        <p><input type="submit" value="Book Event"></p>
+    </form>
+
+    <h2 id="faq">Frequently Asked Questions</h2>
+    <p><b>Q:</b> Do you provide catering?</p>
+    <p><b>A:</b> Yes, we have multiple catering packages.</p>
+    <p><b>Q:</b> Can you handle last-minute bookings?</p>
+    <p><b>A:</b> We try our best to accommodate last-minute requests depending on availability.</p>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: info@eliteevents.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: Elite Event Management, MG Road, Bengaluru</p>
+    <div style="margin-top: 20px;">
+    <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px; color:#3b5998; font-size:30px;">
+        <i class="fab fa-facebook-square"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px; color:#C13584; font-size:30px;">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.twitter.com" target="_blank" style="margin-right: 15px; color:#1DA1F2; font-size:30px;">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com" target="_blank" style="margin-right: 15px; color:#0077B5; font-size:30px;">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank" style="margin-right: 15px; color:#FF0000; font-size:30px;">
+        <i class="fab fa-youtube"></i>
+    </a>
+</div>
+
+    <h2>Location</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995399.3966518609!2d77.07063676562497!3d12.953997400000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xeb9c02a65bcfe1f%3A0x67b2aaa80feb6a41!2sElite%20sports%20management!5e0!3m2!1sen!2sin!4v1773767702426!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
 </body>
+
 </html>
