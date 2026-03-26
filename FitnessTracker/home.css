@@ -1,0 +1,20 @@
+body {
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #004d33;
+}
+
+td {
+    color: #333;
+}
+
+ul {
+    color:cornflowerblue;
+}
+
+#contact {
+    background-color: #3f0dd5;
+    color: antiquewhite;
+}
