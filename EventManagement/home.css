@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #8b0000;
+}
+
+h3 {
+    color: #cc5500;
+}
+
+td {
+    color: #333;
+}
+
+ul {
+    color: #444;
+}
+
+#contact {
+    background-color: #ffe4e1;
+}
