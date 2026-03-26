@@ -1,0 +1,23 @@
+table {
+    background-color: #ffffff;
+}
+
+td {
+    color: #222;
+}
+
+ul {
+    color: #006400;
+}
+
+ol {
+    color: #8b0000;
+}
+
+#contact {
+    background-color: #e6ffe6;
+}
+
+form {
+    background-color: #fff0f5;
+}
