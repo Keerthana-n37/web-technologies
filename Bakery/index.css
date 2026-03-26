@@ -1,0 +1,35 @@
+body {
+    background-color: #fff3e6;
+}
+
+nav a {
+    color: black;
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    color: chocolate;
+}
+
+th {
+    background-color: #ffd9b3;
+}
+
+td {
+    color: #333;
+}
+
+p {
+    color: #444;
+}
+
+#offers {
+    background-color: #ffe6cc;
+}
+
+#contact {
+    background-color: #fff0e6;
+}
