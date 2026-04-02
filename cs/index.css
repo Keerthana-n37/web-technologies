@@ -1,89 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
+div {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
 
-        div {
-            max-width: 900px;
-            margin: auto;
-            background-color: #fff;
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
-        h1 {
-            text-align: center;
-            font-family: 'Alfa Slab One', cursive;
-            font-size: 40px;
-            margin-bottom: 5px;
-        }
+h1 {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
 
-        img {
-            float: right;
-            margin-left: 20px;
-            border-radius: 50%;
-            border: 2px solid #333;
-        }
+img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
 
-        a {
-            text-decoration: none;
-            color: #333;
-            margin-right: 15px;
-        }
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+}
 
-        a:hover {
-            color: #0073e6;
-        }
+a:hover {
+    color: #0073e6;
+}
 
-        i {
-            margin-right: 5px;
-        }
+i {
+    margin-right: 5px;
+}
 
-        h2,
-        h3 {
-            font-family: 'Dancing Script', cursive;
-            color: #1a1a1a;
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
+h2,
+h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #1a1a1a;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    clear: both;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
+.education {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-left: 5px solid #0073e6;
+}
 
-        table th,
-        table td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: left;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
 
-        table th {
-            background-color: #f0f0f0;
-        }
+table th,
+table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
 
-        ul {
-            margin-left: 20px;
-        }
+table th {
+    background-color: #f0f0f0;
+}
 
-        p {
-            text-align: justify;
-        }
+ul {
+    margin-left: 20px;
+}
 
-        .strengths li,
-        .personal-details p {
-            margin-bottom: 5px;
-        }
+p {
+    text-align: justify;
+    margin-right: 150px;
+}
 
-        .education {
-            background-color: #f0f0f0;
-            padding: 5px 10px;
-            border-left: 5px solid #0073e6;
-        }
-    
+.strengths li,
+.personal-details p {
+    margin-bottom: 5px;
+}
+
+hr {
+    clear: both;
+}
